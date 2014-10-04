@@ -1,6 +1,8 @@
 CACHE MANIFEST
-# v 1.0.0.1
+# 2014-10-04:v1 
 
+#cache
+CACHE:
 index.html
 adois.png
 favicon.gif
@@ -23,4 +25,8 @@ img/apple-touch-icon-192x192.png
 img/startup-640x1096.png
 img/startup-640x920.png
 img/startup-320x460.png
+
+# network
+NETWORK:
+*
 # etc...
