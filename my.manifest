@@ -1,14 +1,9 @@
 CACHE MANIFEST
 # 2014-10-04:v1 
 
-#cache
+#cache - Explicitly cached
 CACHE:
 index.html
-adois.png
-favicon.gif
-favicon.ico
-logo.png
-logo_email.png
 img/320x480.png
 img/768x1024.png
 img/main.png
@@ -26,7 +21,13 @@ img/startup-640x1096.png
 img/startup-640x920.png
 img/startup-320x460.png
 
-# network
+# Network - Resources that require the user to be online.
 NETWORK:
 *
-# etc...
+
+# Fallback - Specify fallback items if a resource is inaccessible
+# offline.html will be served in place of all other .html files
+# offline.png will be served in place of all images in images/large/
+#FALLBACK:
+#/ offline.html
+#img/ img/offline.png
